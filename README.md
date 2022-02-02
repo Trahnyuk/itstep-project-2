@@ -5,3 +5,4 @@ used libreries and frameworks:
   - https://getbootstrap.com/
   - https://michalsnik.github.io/aos/
   - https://templatemo.com/tag/portfolio
+  - Best jQueryCodelab: Product Grid Style : Demo 175
