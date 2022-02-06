@@ -75,7 +75,7 @@
     transform: scale(1.5);
 }
 .product-grid .product-hot-label{
-    color: #fff;
+    color: #FBB13C;;
     background: #222;
     font-size: 14px;
     font-weight: 500;
@@ -87,7 +87,7 @@
 }
 /*hover info*/
 .product-grid .product-links{
-    background: #449220;
+    background:#b66d0d;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -131,7 +131,8 @@
     position: relative;
 }
 .product-grid .add-to-cart{
-    color: #88c000;
+    color: #b66d0d;
+    text-align: center;
     font-size: 15px;
     font-weight: 600;
     transform: translateX(-50%);
@@ -140,6 +141,9 @@
     left: 50%;
     opacity: 0;
     transition: all 1s ease 0s;
+    border: 1px solid #b66d0d;
+    padding: 4px;
+
 }
 .product-grid:hover .add-to-cart{ opacity: 1; }
 .product-grid .add-to-cart i.fas{
@@ -163,7 +167,7 @@
     list-style: none;
 }
 .product-grid .price{
-    color: #88c000;
+    color: #80b800;
     font-size: 16px;
     font-weight: 700;
 }
