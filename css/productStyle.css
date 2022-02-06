@@ -141,10 +141,10 @@
     left: 50%;
     opacity: 0;
     transition: all 1s ease 0s;
-    border: 1px solid #b66d0d;
     padding: 4px;
-
 }
+
+
 .product-grid:hover .add-to-cart{ opacity: 1; }
 .product-grid .add-to-cart i.fas{
     font-size: 14px;
@@ -173,4 +173,23 @@
 }
 @media screen and (max-width: 990px){
     .product-grid{ margin: 0 0 30px; }
+}
+
+.social-icon-link.bi-facebook:hover{
+    color: #0b5ed7;
+}
+.social-icon-link.bi-twitter:hover{
+    color: #5db9ff;
+}
+
+.social-icon-link.bi-whatsapp:hover{
+    color: #15ff5f;
+}
+
+.social-icon-link.bi-instagram:hover{
+    color: #bd43ff;
+}
+
+.social-icon-link.bi-youtube:hover{
+    color: #f20d0d;
 }

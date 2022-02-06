@@ -583,8 +583,7 @@ b, strong {
   font-size: var(--p-font-size);
 }
 
-.site-footer .custom-link:hover,
-.site-footer .social-icon-link:hover {
+.site-footer .custom-link:hover{
   color: var(--green-color);
 }
 
@@ -613,9 +612,25 @@ b, strong {
   margin-right: 15px;
 }
 
-.social-icon-link:hover {
-  color: var(--primary-color);
+.social-icon-link.bi-facebook:hover{
+  color: #0b5ed7;
 }
+.social-icon-link.bi-twitter:hover{
+  color: #5db9ff;
+}
+
+.social-icon-link.bi-whatsapp:hover{
+  color: #15ff5f;
+}
+
+.social-icon-link.bi-instagram:hover{
+  color: #bd43ff;
+}
+
+.social-icon-link.bi-youtube:hover{
+  color: #f20d0d;
+}
+
 
 /*---------------------------------------
   RESPONSIVE STYLES               
