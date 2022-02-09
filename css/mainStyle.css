@@ -612,6 +612,10 @@ b, strong {
   margin-right: 15px;
 }
 
+.location_icon{
+  color: var(--primary-color) ;
+}
+
 .social-icon-link.bi-facebook:hover{
   color: #0b5ed7;
 }

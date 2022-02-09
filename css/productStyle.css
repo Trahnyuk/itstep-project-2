@@ -9,7 +9,7 @@
     }
 
     .custom-video,
-    .news-detail-image {
+    .productArt-detail-image {
         object-fit: cover;
         width: 100vw;
         height: 30vh;
@@ -143,6 +143,7 @@
     transition: all 1s ease 0s;
     padding: 4px;
 }
+
 
 
 .product-grid:hover .add-to-cart{ opacity: 1; }
